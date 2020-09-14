@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: edumorrow
+  namespace: default
+  labels:
+    app: edumorrow
+spec:
+  selector:
+    app: edumorrow
+  type: LoadBalancer
+  ports:
+    - name: http
+      port: 80

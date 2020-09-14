@@ -38,6 +38,18 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en", "fr", "de", "it"],
-    "blueprints": []
+    "blueprints": [],
+    "appsFolders": ["Edumorrow"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["Edumorrow"],
+    "dockerRepositoryName": "gcr.io/edumorrow",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": true,
+    "kubernetesStorageClassName": "",
+    "ingressDomain": "",
+    "monitoring": "elk",
+    "istio": false
   }
 }
