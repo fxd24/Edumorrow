@@ -46,7 +46,7 @@ spec:
               done
       containers:
         - name: edumorrow-app
-          image: gcr.io/edumorrow/edumorrow
+          image: gcr.io/edumorrow/edumorrow:latest
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
