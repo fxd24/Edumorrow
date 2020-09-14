@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.edumorrow",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "gateway",
+    "baseName": "Edumorrow",
+    "packageName": "com.edumorrow",
+    "packageFolder": "com/edumorrow",
+    "serverPort": "80",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "NGQ0MjliZmI4YzAxNzJjZmMzN2QyNjBiYmM3ZGI5NmY2ZGNlNzFlM2ZiOTIwODJkOTgwN2M3Y2Q5MWQ1NTc0NzU5MmFlOGRjMzgwOWNlYjk3OTJmZjQ5NTYzMzIwYzZkODllOWM2MmNkM2M1ZWI0OTMwZTQ2MGRmMmNkOTk5N2E=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1600078441681,
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr", "de", "it"],
+    "blueprints": []
+  }
+}
